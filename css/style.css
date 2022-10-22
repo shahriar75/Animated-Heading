@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#hero{
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7) url(../img/bg.jpg) no-repeat center /cover;
+  background-blend-mode: overlay;
+}
+
+.hero-content-box{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content-box h1{
+  color: #fff;
+  font-weight: 400;
+  
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+  top: 11px;
+  height: 95%;
+  background-color: #22a6b3;
+}
+.social-icon li{
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+}
+.social-icon li a ion-icon{
+  color: #fff;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  
+}
+.social-icon li:hover a ion-icon{
+  background: #badc58;
+}
